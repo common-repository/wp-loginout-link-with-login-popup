@@ -1,0 +1,63 @@
+.button {
+    font-size: 1em;
+    padding: 10px;
+    color: #000;
+    border: 2px solid rgba(0, 185, 235, 0.61);
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    
+}
+.button:hover {
+    background: 2px  rgba(0, 185, 235, 0.61);
+    color: #f7f7f7;
+}
+#container {
+    width: 320px;
+    height: 245px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    padding: 20px;
+    margin-top: -107px;
+    margin-left: -150px;
+    display: none;
+    background-color: #f7f7f7;  
+    border: 1px solid rgba(0, 185, 235, 0.61);
+    z-index: 9999;
+}
+
+div#container_overlay{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(26, 26, 26, 0.37);
+    z-index: 999;
+}
+
+.login_wp{
+    display: block;
+    margin-top: 25px;
+}
+
+input#wlogin_username{
+    padding: 12px;
+    margin: 10px 0px;
+}
+
+div#wlog_notice {
+    padding: 5px;
+    color: #60d1f0;
+    font-size: 17px;
+    font-weight: bold;
+}
+.error{
+  border: 1px solid #ff0000 !important;
+}
+li#wlog_login {
+    cursor: default;
+}

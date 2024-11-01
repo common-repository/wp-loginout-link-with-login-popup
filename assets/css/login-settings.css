@@ -1,0 +1,44 @@
+table.settings_table {
+    width: 100%;
+}
+th.wlog_label {
+    width: 15%;
+}
+th.wlog_input {
+    width: 80%;
+}
+table.settings_table thead {
+    text-align: left;
+}
+.settings_div{
+	background-color: rgb(255, 255, 241);
+	margin: 50px 20px;
+	padding: 20px;
+}
+
+.settings_div h1 {
+    margin-bottom: 50px;
+}
+.settings_div h2 {
+	    font-size: 1.5em;
+}
+.default_url{
+	color: #a09d9d;
+}
+.fn_redirect_setting {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(241, 241, 241, 0.61);
+}
+input#update_settings{
+    margin: 10px;
+}
+table.settings_table tbody tr td input{
+	width: 40%;
+}
+.error{
+    border: 1px solid red;
+}
+/*#update_settings{
+    display: none;
+}*/
